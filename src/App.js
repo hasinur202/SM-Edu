@@ -7,7 +7,7 @@ import Contact from './pages/Contact/Contact';
 import Courses from './pages/Courses/Courses';
 import AboutUs from './pages/AboutUs/AboutUs';
 import Teachers from './pages/Teachers/Teachers';
-import LoginRegister from './pages/Login/LoginRegister/LoginRegister';
+import Login from './pages/Login/LoginRegister/Login';
 import AuthProvider from './contexts/AuthProvider';
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
               <Teachers></Teachers>
             </Route>
             <Route exact path="/login">
-              <LoginRegister></LoginRegister>
+              <Login></Login>
             </Route>
           </Switch>
         </Router>
